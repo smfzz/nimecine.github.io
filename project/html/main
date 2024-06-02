@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <meta name="description" content="Bem-vindos a Casa do NimeCine, encontre os seus filmes preferidos de animes aqui!">
+    <meta name="keywords" content="Filmes, Animes, NimeCine, Casa">
+    <title>NimeCine | Casa</title>
+</head>
+
+<body>
+    <div class="box-navbar">
+        <nav class="navbar">
+            <a class="link-logo-navbar" href="../../index.html">
+                <img class="image-logo-navbar" src="../images/NimeCine-Logo-Background-white.png" alt="NimeCine - Logo">
+            </a>
+            <div class="conteiner-items-navbar">
+                <div class="box-item-navbar">
+                    <a class="link-txt-home-navbar" href="category.html">Categorias</a>
+                </div>
+                <div class="box-item-navbar">
+                    <a class="link-txt-home-navbar" href="main.html">Inicio</a>
+                </div>
+                <div class="box-item-navbar">
+                    <a class="link-txt-home-navbar" href="movies.html">Filmes</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <section class="section-1">
+            <h1 class="title-section">Principais recomendações</h1>
+            <nav class="box-films-section-1">
+                <div class="box-film">
+                    <a class="link-txt-film-section-1" href="movies/a-viagem-de-chihiro.html" target="_blank">A viagem de chihiro</a>
+                    <a class="link-film-section-1" href="movies/a-viagem-de-chihiro.html" target="_blank">
+                        <img class="image-film-section-1" src="../images/A-viagem-de-chihiro.jpg" alt="Filme - A viagem de Chihiro">
+                    </a>
+                </div>
+                <div class="box-film">
+                    <a class="link-txt-film-section-1" href="movies/o-rapaz-e-o-monstro.html" target="_blank">O rapaz e o monstro</a>
+                    <a class="link-film-section-1" href="movies/o-rapaz-e-o-monstro.html" target="_blank">
+                        <img class="image-film-section-1"
+                            src="../images/O-rapaz-e-o-monstro.jpg" alt="Filme - O rapaz e o monstro">
+                    </a>
+                </div>
+                <div class="box-film">
+                    <a class="link-txt-film-section-1" href="movies/the-witcher-a-lenda-do-lobo.html" target="_blank">The witcher : A lenda do lobo</a>
+                    <a class="link-film-section-1" href="movies/the-witcher-a-lenda-do-lobo.html" target="_blank">
+                        <img class="image-film-section-1" src="../images/The-witcher-a-lenda-do-lobo-poster.jpg" alt="Filme - The witcher : A lenda do lobo">
+                    </a>
+                </div>
+                <div class="box-film">
+                    <a class="link-txt-film-section-1" href="movies/a-lenda-de-hei.html" target="_blank">A lenda de Hei</a>
+                    <a class="link-film-section-1" href="movies/a-lenda-de-hei.html" target="_blank">
+                        <img class="image-film-section-1" src="../images/A-lenda-de-hei-poster.jpeg" alt="Filme - A lenda de Hei">
+                    </a>
+                </div>
+            </nav>
+        </section>
+        <section class="section-2">
+            <h2 class="title-section-2">Mais assistidos</h2>
+            <div class="film-most-viewed">
+                <div class="box-main-film-most-viewed">
+                    <a class="link-img-film-most-viewed" href="movies/a-lenda-de-hei.html" target="_blank">
+                        <img class="img-film-most-viewed" src="../images/A-lenda-de-hei-poster.jpeg" alt="Filme - A lenda de Hei">
+                    </a>
+                    <div class="title-and-authors-plus-stars">
+                        <a class="title-film-most-viewed" href="movies/a-lenda-de-hei.html" target="_blank">A lenda de Hei</a>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Diretor</p>
+                            <p class="director-and-author-film-most-viewed">MTJJ</p>
+                        </div>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Autor</p>
+                            <p class="director-and-author-film-most-viewed">Beijing HMCH Anime</p>
+                        </div>
+                        <div class="stars-film-most-viewed">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-and-duration">
+                    <div class="box-tags">
+                        <a class="tag-film" href="categories/adventure.html">Aventura</a>
+                        <a class="tag-film" href="">Fantasia</a>
+                    </div>
+                    <div class="box-duration">
+                        <p class="txt-duration-film">Ainda não adicionado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-most-viewed">
+                <div class="box-main-film-most-viewed">
+                    <a class="link-img-film-most-viewed" href="movies/a-viagem-de-chihiro.html" target="_blank">
+                        <img class="img-film-most-viewed" src="../images/A-viagem-de-chihiro.jpg" alt="Filme - A viagem de Chihiro">
+                    </a>
+                    <div class="title-and-authors-plus-stars">
+                        <a class="title-film-most-viewed" href="movies/a-viagem-de-chihiro.html" target="_blank">A viagem de chihiro</a>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Diretor</p>
+                            <p class="director-and-author-film-most-viewed">Hayao Miyazaki
+                            </p>
+                        </div>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Autor</p>
+                            <p class="director-and-author-film-most-viewed">Hayao Miyazaki</p>
+                        </div>
+                        <div class="stars-film-most-viewed">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-and-duration">
+                    <div class="box-tags">
+                        <a class="tag-film" href="categories/adventure.html">Aventura</a>
+                        <a class="tag-film" href="">Fantasia</a>
+                    </div>
+                    <div class="box-duration">
+                        <p class="txt-duration-film">2h 04min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-most-viewed">
+                <div class="box-main-film-most-viewed">
+                    <a class="link-img-film-most-viewed" href="movies/porco-rosso-o-ultimo-heroi-romantico.html">
+                        <img class="img-film-most-viewed" src="../images/Porco-rosso-o-utimo-heroi-romantico-poster.jpg" alt="Filme - Porco rosso: O ultimo heroi romantico">
+                    </a>
+                    <div class="title-and-authors-plus-stars">
+                        <a class="title-film-most-viewed" href="movies/porco-rosso-o-ultimo-heroi-romantico.html">Porco rosso : O ultimo heroi romantico</a>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Diretor</p>
+                            <p class="director-and-author-film-most-viewed">Hayao Miyazaki</p>
+                        </div>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Autor</p>
+                            <p class="director-and-author-film-most-viewed">Hayao Miyazaki</p>
+                        </div>
+                        <div class="stars-film-most-viewed">
+                            <img class="img-star-film-most-viewed"
+                            src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        <img class="img-star-film-most-viewed"
+                            src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        <img class="img-star-film-most-viewed"
+                            src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        <img class="img-star-film-most-viewed"
+                            src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        <img class="img-star-film-most-viewed"
+                            src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-and-duration">
+                    <div class="box-tags">
+                        <a class="tag-film" href="categories/adventure.html">Aventura</a>
+                        <a class="tag-film" href="categories/romance.html">Romance</a>
+                    </div>
+                    <div class="box-duration">
+                        <p class="txt-duration-film">Ainda não adicionado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-most-viewed">
+                <div class="box-main-film-most-viewed">
+                    <a class="link-img-film-most-viewed" href="movies/o-castelo-animado.html" target="_blank">
+                        <img class="img-film-most-viewed" src="../images/O-castelo-animado-poster.jpg" alt="Filme - O castelo animado">
+                    </a>
+                    <div class="title-and-authors-plus-stars">
+                        <a class="title-film-most-viewed" href="movies/o-castelo-animado.html" target="_blank">O castelo animado</a>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Diretor</p>
+                            <p class="director-and-author-film-most-viewed">Hayao Miyazaki</p>
+                        </div>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Autor</p>
+                            <p class="director-and-author-film-most-viewed">Diana Wynne Jones</p>
+                        </div>
+                        <div class="stars-film-most-viewed">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-and-duration">
+                    <div class="box-tags">
+                        <a class="tag-film" href="categories/adventure.html">Aventura</a>
+                        <a class="tag-film" href="">Fantasia</a>
+                    </div>
+                    <div class="box-duration">
+                        <p class="txt-duration-film">1h 59min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-most-viewed">
+                <div class="box-main-film-most-viewed">
+                    <a class="link-img-film-most-viewed" href="movies/the-witcher-a-lenda-do-lobo.html" target="_blank">
+                        <img class="img-film-most-viewed" src="../images/The-witcher-a-lenda-do-lobo-poster.jpg" alt="Filme - The witcher: A lenda do lobo">
+                    </a>
+                    <div class="title-and-authors-plus-stars">
+                        <a class="title-film-most-viewed" href="movies/the-witcher-a-lenda-do-lobo.html" target="_blank">The witcher : A lenda do lobo</a>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Diretor</p>
+                            <p class="director-and-author-film-most-viewed">Kwang Il Han</p>
+                        </div>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Autor</p>
+                            <p class="director-and-author-film-most-viewed">Kwang Il Han</p>
+                        </div>
+                        <div class="stars-film-most-viewed">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-and-duration">
+                    <div class="box-tags">
+                        <a class="tag-film" href="categories/action.html">Ação</a>
+                        <a class="tag-film" href="categories/adventure.html">Aventura</a>
+                    </div>
+                    <div class="box-duration">
+                        <p class="txt-duration-film">Ainda não adicionado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-most-viewed">
+                <div class="box-main-film-most-viewed">
+                    <a class="link-img-film-most-viewed" href="movies/contos-de-terramar.html" target="_blank">
+                        <img class="img-film-most-viewed" src="../images/Contos-de-terramar-poster.png" alt="Filme - Contos de Terramar">
+                    </a>
+                    <div class="title-and-authors-plus-stars">
+                        <a class="title-film-most-viewed" href="movies/contos-de-terramar.html" target="_blank">Contos de Terramar</a>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Diretor</p>
+                            <p class="director-and-author-film-most-viewed">Gorō Miyazaki</p>
+                        </div>
+                        <div class="authors-film-most-viewed">
+                            <p class="txt-director-and-author-film-most-viewed">Autor</p>
+                            <p class="director-and-author-film-most-viewed">Hayao Miyazaki</p>
+                        </div>
+                        <div class="stars-film-most-viewed">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                            <img class="img-star-film-most-viewed"
+                                src="../images/Estrela-Ranking-Branca.png" alt="Estrela de Ranking">
+                        </div>
+                    </div>
+                </div>
+                <div class="tags-and-duration">
+                    <div class="box-tags">
+                        <a class="tag-film" href="categories/action.html">Ação</a>
+                        <a class="tag-film" href="categories/adventure.html">Aventura</a>
+                    </div>
+                    <div class="box-duration">
+                        <p class="txt-duration-film">Ainda não adicionado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <h2 class="title-section">Para caçadores de aventuras</h2>
+            <nav class="films-grid-section-3">
+                <div class="item-grid-section-3">
+                    <a class="link-film-grid" href="movies/a-lenda-de-hei.html">
+                        <img class="img-link-film-grid" src="../images/A-lenda-de-hei-poster.jpeg" alt="Filme - A lenda de Hei">
+                    </a>
+                    <a class="txt-link-film-grid" href="movies/a-lenda-de-hei.html">A lenda de Hei</a>
+                </div>
+                <div class="item-grid-section-3">
+                    <a class="link-film-grid" href="movies/princesa-mononoke.html">
+                        <img class="img-link-film-grid" src="../images/Princesa-mononoke-poster.jpg" alt="Filme - Princesa Mononoke">
+                    </a>
+                    <a class="txt-link-film-grid" href="movies/princesa-mononoke.html">Princesa mononoke</a>
+                </div>
+                <div class="item-grid-section-3">
+                    <a class="link-film-grid" href="">
+                        <img class="img-link-film-grid" src="../images/Contos-de-terramar-poster.png" alt="Filme - Contos de Terramar">
+                    </a>
+                    <a class="txt-link-film-grid" href="movies/contos-de-terramar.html">Contos de terramar</a>
+                </div>
+                <div class="item-grid-section-3">
+                    <a class="link-film-grid" href="movies/o-castelo-animado.html">
+                        <img class="img-link-film-grid" src="../images/O-castelo-animado-poster.jpg" alt="Filme - O castelo animado">
+                    </a>
+                    <a class="txt-link-film-grid" href="movies/o-castelo-animado.html">O castelo animado</a>
+                </div>
+            </nav>
+        </section>
+        <section class="section-4">
+            <p class="title-section-4">Ver todos os filmes disponiveis</p>
+            <div class="box-links-section-4">
+                <a class="link-films-section-4" href="movies.html">Ir para Filmes</a>
+                <a class="link-category-section-4" href="category.html">Ir para categorias</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="itens-footer">
+            <a class="link-logo-footer" href="../../index.html">
+                <img class="image-logo-footer" src="../images/NimeCine-Logo-Background-Red.png" alt="NimeCine - Logo">
+            </a>
+            <div class="navs-footer">
+                <nav class="nav-footer">
+                    <a class="title-nav-footer" href="category.html">Categorias</a>
+                    <a class="item-nav-footer" href="categories/action.html">Ação</a>
+                    <a class="item-nav-footer" href="categories/drama.html">Drama</a>
+                    <a class="item-nav-footer" href="categories/romance.html">Romance</a>
+                    <a class="item-nav-footer" href="categories/adventure.html">Aventura</a>
+                </nav>
+                <nav class="nav-footer">
+                    <a class="title-nav-footer" href="enterprise.html">Empresa</a>
+                    <a class="item-nav-footer" href="enterprise/about.html">Sobre</a>
+                    <a class="item-nav-footer" href="enterprise/mission.html">Missão</a>
+                    <a class="item-nav-footer" href="enterprise/vision.html">Visão</a>
+                    <a class="item-nav-footer" href="enterprise/values.html">Valores</a>
+                </nav>
+                <nav class="nav-footer">
+                    <a class="title-nav-footer" href="resources.html">Recursos</a>
+                    <a class="item-nav-footer" href="resources/privacy.html">Privacidade</a>
+                    <a class="item-nav-footer" href="resources/cookies.html">Preferencias de cookies</a>
+                </nav>
+            </div>
+        </div>
+        <div class="signature-footer">
+            <a class="author-footer" href="">Essyefe</a>
+        </div>
+    </footer>
+</body>
+
+</html>
