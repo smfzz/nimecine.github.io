@@ -1,0 +1,464 @@
+/* ------------------------------------------
+Imports
+------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* ------------------------------------------
+General
+------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #F0F0F0;
+}
+
+/* Navbar */
+
+.box-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /*border: 5px solid;*/
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+    /*border: 5px solid;*/
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+.link-logo-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    height: 100%;
+    width: 12vmin;
+}
+
+.image-logo-navbar {
+    height: 100%;
+    width: 100%;
+    /*border: 5px solid blue;*/
+}
+
+.conteiner-items-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    /*border: 7px solid red;*/
+}
+
+.box-item-navbar {
+    /*border: 5px solid rgb(255, 0, 212);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.link-home-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 5px solid rgb(255, 0, 0);*/
+    height: 40%;
+    width: 15%;
+}
+
+.image-home-navbar {
+    /*border: 5px solid rgb(157, 255, 0);*/
+    width: 100%;
+    height: 100%;
+}
+
+.link-txt-home-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 40%;
+    color: #111111;
+    font-size: 2.7vmin;
+    /*border: 5px solid brown;*/
+}
+
+/* ------------------------------------------
+Section main
+------------------------------------------- */
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3000px;
+    width: 100%;
+    /*border: 5px solid red;*/
+}
+
+.title-section {
+    width: 95%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    font-size: 8vmin;
+    color: #FF3535;
+    font-weight: 800;
+    /*border: 3px solid white;*/
+    margin: 0;
+}
+
+.box-films-section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 92%;
+    /*border: 5px solid teal;*/
+}
+
+.film-most-viewed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4%;
+    width: 100%;
+    height: 7%;
+    background-color: #111111;
+    border-radius: 5px;
+}
+
+.box-main-film-most-viewed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*border: 6px solid yellow;*/
+    height: 80%;
+    width: 70%;
+    gap: 3%;
+}
+
+.link-img-film-most-viewed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 5px solid red;*/
+    height: 100%;
+    width: 40%;
+}
+
+.img-film-most-viewed {
+    /*border: 5px solid palevioletred;*/
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.title-and-authors-plus-stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    /*border: 5px solid red;*/
+
+}
+
+.title-film-most-viewed {
+    width: 100%;
+    font-size: 3vmin;
+    text-decoration: none;
+    color: #F0F0F0;
+    font-weight: 700;
+}
+
+.authors-film-most-viewed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+    height: 20%;
+    /*border: 2px solid black;*/
+    font-size: 2vmin;
+}
+
+.txt-director-and-author-film-most-viewed {
+    margin: 0;
+    color: #c4c4c4;
+}
+
+.director-and-author-film-most-viewed {
+    margin: 0;
+    color: #F0F0F0;
+}
+
+
+.stars-film-most-viewed {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    /*border: 2px solid blue;*/
+}
+
+.img-star-film-most-viewed {
+    width: 4%;
+    height: 80%;
+}
+
+.tags-and-duration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    height: 80%;
+    /*border: 3px solid olivedrab;*/
+}
+
+.box-tags {
+    display: flex;
+    flex-direction: row;
+    /*border: 3px solid yellow;*/
+    gap: 5%;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    height: 30%;
+}
+
+.tag-film {
+    background-color: #F0F0F0;
+    font-size: 2.5vmin;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #111111;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.box-duration {
+    width: 70%;
+    height: 20%;
+    /*border: 3px solid black;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.txt-duration-film {
+    font-size: 2.5vmin;
+    color: #c4c4c4;
+}
+
+.conteiner-nav-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    height: 5%;
+    /*border: 5px solid tomato;*/
+}
+
+.link-now-nav {
+    background: #FF3535;
+    color: #c4c4c4;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1000px;
+    text-decoration: none;
+}
+
+.link-next-page-nav {
+    background: #c4c4c4;
+    color: #1E1E1E;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1000px;
+    text-decoration: none;
+}
+
+/* ------------------------------------------
+Footer
+------------------------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    width: 100%;
+    height: 700px;
+    background-color: #FF3535;
+    /*border: 5px solid blue;*/
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 40%;
+    /*border: 5px solid #F0F0F0;*/
+}
+
+.link-logo-footer {
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+.image-logo-footer {
+    height: 100%;
+    width: 100%;
+}
+
+.navs-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    gap: 5%;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 80%;
+    width: 20%;
+    gap: 5%;
+    /*border: 5px solid red;*/
+}
+
+.title-nav-footer {
+    font-weight: 700;
+    color: #F0F0F0;
+    font-size: 3vmin;
+    text-decoration: none;
+}
+
+.item-nav-footer {
+    font-weight: 200;
+    color: #F0F0F0;
+    font-size: 2.5vmin;
+    text-decoration: none;
+}
+
+.signature-footer {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 5%;
+    /*border: 5px solid red;*/
+}
+
+.author-footer {
+    color: #F0F0F0;
+    font-size: 3vmin;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 600px ) {
+
+/* ------------------------------------------
+Navbar
+------------------------------------------- */
+
+.link-home-navbar {
+    width: 30%;
+}
+
+/* ------------------------------------------
+Section main
+------------------------------------------- */
+
+ 
+ .section-main {
+    height: 3000px;
+ }
+
+
+ .tags-and-duration {
+    width: 30%;
+}
+
+.link-img-film-most-viewed {
+    width: 80%;
+}
+
+.title-film-most-viewed {
+    font-size: 3vmin;
+}
+
+.tag-film {
+    font-size: 1vmin;
+}
+
+.img-star-film-most-viewed {
+    width: 10%;
+    height: 40%;
+}
+
+.film-most-viewed {
+    height: 7%;
+}
+
+.txt-duration-film {
+    font-size: 2vmin;
+}
+
+.conteiner-nav-bottom {
+    height: 3%;
+    gap: 3%;
+}
+
+/* ------------------------------------------
+Footer
+------------------------------------------- */
+
+.itens-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.navs-footer {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
