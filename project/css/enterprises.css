@@ -1,0 +1,282 @@
+/* ------------------------------------------
+Imports
+------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* ------------------------------------------
+General
+------------------------------------------- */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #F0F0F0;
+}
+
+/* ------------------------------------------
+Navbar
+------------------------------------------- */
+.box-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /*border: 5px solid;*/
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+    /*border: 5px solid;*/
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+.link-logo-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    height: 100%;
+    width: 12vmin;
+}
+
+.image-logo-navbar {
+    height: 100%;
+    width: 100%;
+    /*border: 5px solid blue;*/
+}
+
+.conteiner-items-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    /*border: 7px solid red;*/
+}
+
+.box-item-navbar {
+    /*border: 5px solid rgb(255, 0, 212);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.link-home-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 5px solid rgb(255, 0, 0);*/
+    height: 40%;
+    width: 15%;
+}
+
+.image-home-navbar {
+    /*border: 5px solid rgb(157, 255, 0);*/
+    width: 100%;
+    height: 100%;
+}
+
+.link-txt-home-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 40%;
+    color: #111111;
+    font-size: 2.7vmin;
+    /*border: 5px solid brown;*/
+}
+
+/* ------------------------------------------
+Main
+------------------------------------------- */
+
+.box-text-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    /*border: 5px solid red;*/
+}
+
+.txt-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    width: 95%;
+    height: 90%;
+    /*border: 5px solid blue;*/
+}
+
+.enterprise-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.main-enterprise-txt {
+    font-size: 6vmin;
+}
+
+.subtitle-enterprise-txt {
+    font-size: 3vmin;
+    color: #9e9e9e;
+    list-style-type: none;
+    margin: 0;
+}
+
+.text-post {
+    width: 95%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 5px solid red;*/
+    padding: auto;
+    background-color: #FF3535;
+    border-radius: 10px;
+}
+
+.txt-enterprise {
+    font-size: 12vmin;
+    color: #F0F0F0;
+    font-weight: 800;
+}
+
+/* ------------------------------------------
+Footer
+------------------------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    width: 100%;
+    height: 700px;
+    background-color: #FF3535;
+    /*border: 5px solid blue;*/
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 40%;
+    /*border: 5px solid #F0F0F0;*/
+}
+
+.link-logo-footer {
+    display: flex;
+    height: 100%;
+    width: 20%;
+}
+
+.image-logo-footer {
+    height: 100%;
+    width: 100%;
+}
+
+.navs-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    gap: 5%;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 80%;
+    width: 20%;
+    gap: 5%;
+    /*border: 5px solid red;*/
+}
+
+.title-nav-footer {
+    font-weight: 700;
+    color: #F0F0F0;
+    font-size: 3vmin;
+    text-decoration: none;
+}
+
+.item-nav-footer {
+    font-weight: 200;
+    color: #F0F0F0;
+    font-size: 2.5vmin;
+    text-decoration: none;
+}
+
+.signature-footer {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 5%;
+    /*border: 5px solid red;*/
+}
+
+.author-footer {
+    color: #F0F0F0;
+    font-size: 3vmin;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+/* ------------------------------------------
+Navbar
+------------------------------------------- */
+
+.link-home-navbar {
+    width: 30%;
+}
+
+
+/*Main*/
+
+.text-post {
+    height: 40%;
+}
+
+/* ------------------------------------------
+Footer
+------------------------------------------- */
+
+.itens-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.navs-footer {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
